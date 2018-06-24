@@ -66,13 +66,13 @@ h2{
 }
 .navigation__main-page{
     padding-left:37px;
-    background: url(../images/main_icon1.png) no-repeat 0 0;
+    background: url(../../assets/img/main_icon1.png) no-repeat 0 0;
 }
 .navigation__link:hover{
     color: #fff;
 }
 .navigation__main-page:hover{
-    background: url(../images/main_icon.png) no-repeat 0 0;
+    background: url(../../assets/img/main_icon.png) no-repeat 0 0;
 }
 
 .header__info{
@@ -87,6 +87,9 @@ h2{
     text-transform: uppercase;
     color: #fff;
 }
+.info__schedule-wrapper{
+    display:inline-block;;
+}
 .info__schedule{
     color: #f89513;
     text-decoration:underline;
@@ -100,6 +103,7 @@ h2{
     display:none;
     position:absolute;
     top:57px;
+    right:0;
     width: 166px;
     height: 78px;
     color: #f89513;
@@ -125,11 +129,11 @@ h2{
 .hours__working{
     display:block;
     margin-bottom:10px;
-} 
+}
 .hours__break{
     color: #221f1f;
     font: 300 14px/18px "Open Sans Light";
-} 
+}
 /* --------------------main -------------------- */
 .main{
     flex: 1 0 auto;
@@ -179,9 +183,10 @@ h2{
     font: 400 18px/30px "Open Sans";
 }
 .features .description__list{
-    list-style-type: disc;
+    list-style-type:disc;
+    list-style-position:inside;
     text-align:left;
-    padding-left:18px;
+    /* padding-left:18px; */
     line-height:38px;
 }
 
@@ -196,8 +201,7 @@ h2{
     margin:61px auto 70px;
 }
 .news__content,
-.news__article
-{
+.news__article{
     display:flex;
     justify-content:space-between;
 }
@@ -220,8 +224,14 @@ h2{
     background-color: #f5f5f5;
 }
 .news__latest-news .article__img{
+    flex:none;
+    border-radius:50%;
+    overflow:hidden;
+    width:160px;
+    height:160px;
     margin:5px 20px 0 0;
 }
+
 .news__latest-news .article__date{
     font:300 14px/21px "Roboto";
     color: #656464;
@@ -235,13 +245,16 @@ h2{
     font:300 18px/30px "Roboto";
     color: #221f1f;
 }
-
+.news__top-news{
+    text-align:right;
+}
 .top-news__title{
+    text-align:left;
     font:700 12px/21px "Open Sans";
     letter-spacing: 2.4px;
     color: #221f1f;
     text-transform: uppercase;
-    margin-bottom:19px;
+    margin:0 0 19px 10px;
 }
 .top-news__title span{
     display:block;
@@ -252,6 +265,10 @@ h2{
 }
 .top-news__article{
     display:block;
+    opacity:0.7;
+}
+.top-news__article:hover{
+    opacity:1;
 }
 
 /* --------------------switcher-------------------- */
