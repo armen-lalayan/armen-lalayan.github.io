@@ -298,7 +298,7 @@ h2{
 .switcher__pages{
     margin:0 10px;
 }
-.switcher__pages .switcher__link-current{
+.switcher__pages .switcher__link__current{
     display:inline-block;
     width: 25px;
     height: 25px;
@@ -314,7 +314,7 @@ h2{
     color: #221f1f;
     font:700 14px/21px Roboto;
 }
-.switcher__link:not(.switcher__link-current):hover{
+.switcher__link:not(.switcher__link__current):hover{
     color:#f89513;
 }
 
