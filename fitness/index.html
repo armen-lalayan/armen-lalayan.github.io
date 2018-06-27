@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Afrodita</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/fav-icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/fav-icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/fav-icon/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/fav-icon/site.webmanifest">
+    <link rel="mask-icon" href="assets/img/fav-icon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -12,40 +19,38 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="wrapper">
-
-        <header class="header">
-            <div class="header__container container">
-               <div class="header__logo logo">
-                   <a class="logo__link" href="#">Афродита</a>
-               </div>
-               <nav class="navigation">
-                   <ul class="navigation__menu">
-                        <li class="navigation__item">
-                            <a class="navigation__link navigation__main-page" href="#">главная</a>
-                        </li>
-                        <li class="navigation__item">
-                            <a class="navigation__link" href="#"><i class="far fa-star"></i>отзывы</a>
-                        </li>
-                        <li class="navigation__item">
-                            <a class="navigation__link" href="#"><i class="fas fa-dumbbell"></i>услуги</a>
-                        </li>
-                   </ul>
-               </nav>
-               <div class="header__info">
-                    <a class="info__telephon" href="tel:+788000039210">8 (800) 00-392-10</a>
-                    <div class="info__schedule-wrapper">
-                        <span class="info__schedule">График работы</span>
-                        <div class="info__hours">
-                            <span class="hours__working">пн-вс: 09:00-20:00</span>
-                            <span class="hours__break">обед: 14:00-14:30</span>
+    <header class="header">
+                <div class="header__container container">
+                   <div class="header__logo logo">
+                       <a class="logo__link" href="#">Афродита</a>
+                       <span class="logo__name">Афродита</span>
+                   </div>
+                   <nav class="navigation">
+                       <ul class="navigation__menu">
+                            <li class="navigation__item">
+                                <a class="navigation__link navigation__main-page" href="#">главная</a>
+                            </li>
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="#"><i class="far fa-star"></i>отзывы</a>
+                            </li>
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="#"><i class="fas fa-dumbbell"></i>услуги</a>
+                            </li>
+                       </ul>
+                   </nav>
+                   <div class="header__info">
+                        <a class="info__telephon" href="tel:+788000039210">8 (800) 00-392-10</a>
+                        <div class="info__schedule-wrapper">
+                            <span class="info__schedule">График работы</span>
+                            <div class="info__hours">
+                                <span class="hours__working">пн-вс: 09:00-20:00</span>
+                                <span class="hours__break">обед: 14:00-14:30</span>
+                            </div>
                         </div>
-                    </div>
-               </div>
-            </div>
-        </header>
-
-        <main class="main">
+                   </div>
+                </div>
+    </header>
+    <main class="main">
             <div class="container">
                 <img class="main__picture" src="assets/img/just-do-it.jpg" alt="just-do-it">
             </div>
@@ -149,7 +154,7 @@
                             </a>
                             <ul class="switcher__pages">
                                 <li class="switcher__page-item">
-                                    <a href="#" class="switcher__link switcher__link-current">1</a>
+                                    <a href="#" class="switcher__link switcher__link__current">1</a>
                                 </li>
                                 <li class="switcher__page-item">
                                     <a href="#" class="switcher__link">2</a>
@@ -178,41 +183,40 @@
                 </div>
             </section>
 
-        </main>
-        <footer class="footer">
-            <div class="footer__container container">
-                <div class="footer__copyrights">
-                    <p class="footer__copyrights-text">Сделано с любовью и старанием</br> на курсе «HTML + CSS» в 
-                        <a href="#" class="footer__copyrights-school">LoftSchool. </a>Автор работы:
-                        <span class="footer__copyrights-autor">Прохладов Вадим</span>
-                    </p>
-                </div>
-                <div class="footer__logo logo">
-                    <a class="logo__link" href="#">Афродита</a>
-                </div>
-                <div class="footer__socials">
-                    <h4 class="socials__title">Наши социальные сети</h4>
-                    <ul class="socials__list">
-                        <li class="socials__item">
-                            <a href="#" class="socials__link"><i class="fab fa-vk"></i></a>
-                        </li>
-                        <li class="socials__item">
-                            <a href="#" class="socials__link"><i class="fab fa-facebook-f"></i></a>
-                        </li>
-                        <li class="socials__item">
-                            <a href="#" class="socials__link"><i class="fab fa-google-plus-g"></i></a>
-                        </li>
-                        <li class="socials__item">
-                            <a href="#" class="socials__link"><i class="fab fa-twitter"></i></a>
-                        </li>
-                        <li class="socials__item">
-                            <a href="#" class="socials__link"><i class="fas fa-envelope"></i></a>
-                        </li>
-                    </ul>
-                </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__copyrights">
+                <p class="footer__copyrights-text">Сделано с любовью и старанием</br> на курсе «HTML + CSS» в 
+                    <a href="#" class="footer__copyrights-school">LoftSchool. </a>Автор работы:
+                    <span class="footer__copyrights-autor">Лалаян Армен</span>
+                </p>
             </div>
-        </footer>
-    </div>
+            <div class="footer__logo logo">
+                <a class="logo__link" href="#">Афродита</a>
+            </div>
+            <div class="footer__socials">
+                <h4 class="socials__title">Наши социальные сети</h4>
+                <ul class="socials__list">
+                    <li class="socials__item">
+                        <a href="#" class="socials__link"><i class="fab fa-vk"></i></a>
+                    </li>
+                    <li class="socials__item">
+                        <a href="#" class="socials__link"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="socials__item">
+                        <a href="#" class="socials__link"><i class="fab fa-google-plus-g"></i></a>
+                    </li>
+                    <li class="socials__item">
+                        <a href="#" class="socials__link"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="socials__item">
+                        <a href="#" class="socials__link"><i class="fas fa-envelope"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     
 </body>
 </html>
