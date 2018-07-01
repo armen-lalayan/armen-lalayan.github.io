@@ -1,0 +1,120 @@
+.header{
+    background-color:#131415;
+    color:#ffffff;
+}
+.header__container{
+    justify-content:space-between;
+    align-items:center;
+    padding:13px 0px 9px;
+}
+.logo__link{
+    font:400 18px/54px "Gora Free";
+    color: #f89513;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+.logo__name{
+    display:none;
+}
+.navigation{
+    margin-left:11px;
+}
+.navigation__menu{
+    display:flex;
+    justify-content:center;
+}
+.navigation__menu li+li{
+    margin-left:25px;
+}
+.navigation__link{
+    font: 700 12px/54px "Open Sans";
+    color: #f89513;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+.navigation__link i{
+    margin-right:15px;
+    font-size:14px;
+}
+.navigation__link .fa-star{
+    font-size:18px;
+}
+.navigation__main-page{
+    padding-left:37px;
+    background: url(../../assets/img/main_icon1.png) no-repeat 0 0;
+}
+.navigation__link:hover{
+    color: #fff;
+}
+.navigation__main-page:hover{
+    background: url(../../assets/img/main_icon.png) no-repeat 0 0;
+}
+
+.header__info{
+    font:700 14px/14px "Open Sans";
+    text-align:right;
+    position:relative;
+}
+.info__telephon{
+    display:block;
+    margin-bottom:5px;
+    font:700 21px/21px "Open Sans";
+    text-transform: uppercase;
+    color: #fff;
+}
+.info__schedule-wrapper{
+    display:inline-block;
+    color: #f89513;
+}
+.info__schedule{
+    text-decoration:underline;
+    transition: all 0.3s linear;
+}
+.info__schedule-wrapper:before{
+    content:"";
+    display:block;
+    position:absolute;
+    width:113px;
+    height:40px;
+
+}
+.info__schedule-wrapper:hover{
+    cursor:pointer;
+    color: #fff;
+}
+
+.info__hours{
+    display:none;
+    position:absolute;
+    top:57px;
+    right:0;
+    width: 166px;
+    height: 78px;
+    color: #f89513;
+    text-align:left;
+    padding: 21px;
+    background-color:#fff;
+    border-radius:5px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+}
+.info__hours:after{
+    content:"";
+    display:block;
+    position:absolute;
+    top:-13px;
+    right:3px;
+    border: 7px solid transparent;
+    border-bottom: 7px solid #fff;
+    ;
+}
+.info__schedule-wrapper:hover .info__hours{
+    display:block;
+}
+.hours__working{
+    display:block;
+    margin-bottom:10px;
+}
+.hours__break{
+    color: #221f1f;
+    font: 300 14px/18px "Open Sans Light";
+}
