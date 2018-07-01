@@ -85,7 +85,7 @@
 }
 .review-form__area:focus{
     border: 1px solid #f89513;
-    padding:11px;
+    padding:8px;
 }
 .review-form__half-width p{
     margin-bottom:13px;
