@@ -43,7 +43,6 @@
     border: 1px solid #f89513;
     padding: 0 10px;
 }
-
 .review-form__input::-moz-placeholder{
     opacity: 0.5;
     color: #221f1f;
