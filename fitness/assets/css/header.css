@@ -81,25 +81,17 @@
     text-decoration:underline;
     transition: all 0.3s linear;
 }
-.info__schedule-wrapper:before{
-    content:"";
-    display:block;
-    position:absolute;
-    width:113px;
-    height:40px;
-
-}
 .info__schedule-wrapper:hover{
     cursor:pointer;
     color: #fff;
 }
 
 .info__hours{
-    /* display:none; */
     opacity:0;
     transition:all .5s ease-out;
     position:absolute;
     top:27px;
+    left:-9999px;
     right:0;
     width: 166px;
     height: 78px;
@@ -109,6 +101,16 @@
     background-color:#fff;
     border-radius:5px;
     box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+}
+.info__hours:before{
+    content:"";
+    display:block;
+    position:absolute;
+    left:0;
+    top:-20px;
+    width:100%;
+    height:40px;
+
 }
 .info__hours:after{
     content:"";
@@ -120,7 +122,7 @@
     border-bottom: 7px solid #fff;
 }
 .info__schedule-wrapper:hover .info__hours{
-    /* display:block; */
+    left:inherit;
     opacity:1;
     transform: translateY(30px);
 }
@@ -132,4 +134,3 @@
     color: #221f1f;
     font: 300 14px/18px "Open Sans Light";
 }
-height: 78px;

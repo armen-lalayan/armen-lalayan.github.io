@@ -1,5 +1,5 @@
-.news .switcher{
-    margin:55px auto;
+.switcher{
+    margin:0 auto 60px;
 }
 .switcher, .switcher__pages, .switcher__paginator
 {
