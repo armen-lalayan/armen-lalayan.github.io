@@ -1,6 +1,9 @@
 @import url("normalize.css");
+@import url("intro.css");
 @import url("content.css");
 @import url("header.css");
 @import url("pagination.css");
 @import url("form.css");
 @import url("footer.css");
+@import url("services.css");
+@import url("partners.css");

@@ -33,32 +33,36 @@
     letter-spacing: 1.2px;
     position:relative;
     transition:none;
-}
-.navigation__link i{
-    margin-right:15px;
-    font-size:14px;
-}
-.navigation__link .fa-star{
-    font-size:18px;
-}
-.navigation__main-page{
     padding-left:37px;
-    
 }
-.navigation__main-page:before{
+.navigation__link:before{
     content:"";
     display:block;
     position:absolute;
     width:19px;
     height:14px;
     top:0;
-    background: url(../../assets/img/icon-main.png) no-repeat 0 0;
+    background: url(../../assets/img/spritesheet.png) no-repeat -19px -5px;
 }
 .navigation__link:hover{
     color: #fff;
 }
-.navigation__main-page:hover:before{
-    background: url(../../assets/img/icon-main.png) no-repeat -19px 0;
+.navigation__link__reviews:before{
+    width:20px;
+    height:21px;
+    background-position: -58px -3px;
+}
+.navigation__link__services:before{
+    background-position: -97px -4px;
+}
+.navigation__link__main:hover:before{
+    background-position: 0 -5px;
+}
+.navigation__link__reviews:hover:before{
+    background-position: -38px -3px;
+}
+.navigation__link__services:hover:before{
+    background-position: -78px -4px;
 }
 
 .header__info{

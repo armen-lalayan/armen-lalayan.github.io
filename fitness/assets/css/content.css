@@ -230,18 +230,18 @@ a.top-news__article:last-of-type{
     background-size:auto;
 }
 /* --------------------services-------------------- */
-.services{
+.service{
     background:url(../img/services-pattern.png) repeat #131415;
     padding:20px 0 30px;
     margin-bottom:60px;
 }
-.services__wrapper{
+.service__wrapper{
     max-width:640px;
     margin: 0 auto;
     color: #ffffff;
     font: 300 18px/30px "Open Sans";
 }
-.services__wrapper span{
+.service__wrapper span{
     color: #f89513;
     font: 700 18px/30px "Open Sans";
 }
